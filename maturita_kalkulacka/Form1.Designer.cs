@@ -140,6 +140,7 @@
             this.buttonC.TabIndex = 11;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
             // 
             // button7
             // 
@@ -325,6 +326,7 @@
             this.buttonEquals.TabIndex = 21;
             this.buttonEquals.Text = "=";
             this.buttonEquals.UseVisualStyleBackColor = true;
+            this.buttonEquals.Click += new System.EventHandler(this.buttonEquals_Click);
             // 
             // Form1
             // 
